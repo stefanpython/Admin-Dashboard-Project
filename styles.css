@@ -7,6 +7,7 @@ html, body {
     margin: 0;
 }
 
+
 .container {
     display: grid;
     grid-template-columns: 1fr 4fr;
@@ -39,23 +40,23 @@ ul {
 
 .main-content {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 3fr 1fr;
     gap: 10px;
-}
-
-.box {
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    border: 1px solid;
 }
 
 .main-left {
     display: grid;
-    
-    border: 1px solid;
+    height: 800px;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
 }
 
 .main {
+   display: grid;
+   gap: 10px;
+   border: 1px solid;
+}
+
+.box {
     border: 1px solid;
-    
 }
