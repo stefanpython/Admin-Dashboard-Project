@@ -7,6 +7,10 @@ html, body {
     margin: 0;
 }
 
+body {
+    height: 100vh;
+    width: 100vw;
+  }
 
 .container {
     display: grid;
@@ -16,8 +20,9 @@ html, body {
 .sidebar {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 50px 1fr 1fr;
+    grid-template-rows: 60px 1fr 1fr;
     background-color: rgb(100, 160, 113);
+    height: 1fr
 }
 
 .sidebar-links {
@@ -46,15 +51,15 @@ ul {
 
 .main-left {
     display: grid;
-    height: 800px;
+    height: 700px;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
 }
 
 .main {
    display: grid;
-   gap: 10px;
    border: 1px solid;
+   place-content: start;
 }
 
 .box {
@@ -69,15 +74,21 @@ img {
     margin-left: 10px;
     width: auto;
     height: 50px;
+    margin-top: 10px;
 }
 
 .trending-profile {
     display: grid;
-    grid-template-columns: 1fr 4fr;
-    padding: 4.9px;
+    grid-template-columns: 1fr 4fr; 
     align-items: center;
+    padding-bottom: 13px;
 }
 
-p {
-   
+.text > p {
+    margin-bottom: 5px;
+    
+}
+
+.project-name {
+   margin-top: -3px;
 }
