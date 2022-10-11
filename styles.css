@@ -10,8 +10,8 @@ html, body {
 body {
     height: 100vh;
     width: 100vw;
-    background-color: #d9e6ec;
-    
+    background-color: rgba(226,232,240,255);
+    overflow-x: hidden; 
   }
 
 .container {
@@ -45,14 +45,14 @@ ul {
 }
 
 #search {
-    background-color: #d9e6ec;
+    background-color: rgba(226,232,240,255);
 }
 
 .main-content {
     display: grid;
     grid-template-columns: 3fr 1fr;
     gap: 20px;
-    background-color: #d9e6ec;
+    background-color: rgba(226,232,240,255);
 }
 
 .main-left {
@@ -158,5 +158,43 @@ input {
 }
 
 .searchbar {
-    margin-bottom: -10px;
+    margin-top: 10px;
+}
+
+.right-image {
+    height: 60px;
+}
+
+.ringbell {
+    display: flex;
+    margin-bottom: -45px;
+    margin-left: -50px;
+    height: 30px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 20px;
+    align-self: flex-end;
+    margin-bottom: 20px;
+    margin-left: 250px;
+}
+
+button {
+    margin-left: -80px;
+}
+
+.admin-name {
+    margin-left: 240px;
+}
+
+.greeting {
+    margin-top: -30px;
+}
+
+.admin-rightside {
+    margin-top: -40px;
+    margin-left: 90px;
 }
