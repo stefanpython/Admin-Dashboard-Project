@@ -38,7 +38,7 @@ ul {
 
 .header {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
     background-color: white;
     padding: 21.1px;
     padding-left: 60px;
@@ -141,4 +141,22 @@ h5 {
 .intro-name > p {
     margin-bottom: -20px;
     margin-top: 36px;
+}
+
+input {
+    border: 0;
+    height: 30px;
+    width: 750px;
+    border-radius: 30px;
+    margin-left: 10px;
+}
+
+.search-img {
+    height: 20px;
+    margin-bottom: -6px;
+    margin-left: 20px;
+}
+
+.searchbar {
+    margin-bottom: -10px;
 }
