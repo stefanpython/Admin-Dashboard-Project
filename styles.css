@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Belgrano&display=swap');
+
 * {
    
     /* border: 1px solid rgb(214, 87, 87); */
@@ -81,7 +83,7 @@ ul {
 }
 
 .main-right {
-    margin-top: -61.4px;
+    margin-top: -82.4px;
     width: 18vw;
     
 }
@@ -117,7 +119,7 @@ ul {
     padding: 20px;
     background-color: white;
     box-shadow: 5px 5px 15px #888888;
-    margin-bottom: 105px;
+    margin-bottom: 98px;
 }
 
 h5 {
@@ -241,4 +243,25 @@ button {
 
 .interactions > ul li {
     padding: 7px;
+}
+
+.main > h4 {
+    font-size: large;
+    margin-bottom: -10px;
+}
+
+.main > p {
+    margin-bottom: 40px;
+}
+
+.main-right > h4 {
+    margin-bottom: 20px;
+}
+
+.main-right > h4, #h4-trending, #h4-projects {
+    font-family: 'Belgrano', serif;
+}
+
+.admin-rightside, .intro-name > h1 {
+    font-family: 'Belgrano', serif;
 }
