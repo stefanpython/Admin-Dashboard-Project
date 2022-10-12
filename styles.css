@@ -207,7 +207,7 @@ input {
 button {
     margin-left: -80px;
     border: none;
-    height: 35px;
+    height: 40px;
     width: 100px;
     border-radius: 20px;
     background-color: #0891b2; 
@@ -301,4 +301,12 @@ button {
 .dash div {
     margin-left: 70px;
     margin-top: -50px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    position: relative;
 }
