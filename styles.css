@@ -25,11 +25,13 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 60px 1fr 1fr;
-    background-color: rgb(100, 160, 113);
+    /* background-color: rgb(100, 160, 113); */
+    background-color: #0f766e;
     height: 105%;
 }
 
 .sidebar-links {
+    margin-top: 60px;
     display: grid;
 }
 
@@ -90,7 +92,6 @@ ul {
 
 .trend-img {
     margin-left: 10px;
-    width: auto;
     height: 50px;
     margin-top: 15px;
 }
@@ -103,7 +104,7 @@ ul {
 }
 
 .text > p {
-    margin-bottom: 3px;
+    margin-bottom: 10px;
     
 }
 
@@ -209,7 +210,7 @@ button {
     height: 35px;
     width: 100px;
     border-radius: 20px;
-    background-color: rgba(25,146,212,255); 
+    background-color: #0891b2; 
     color: white; 
     font-weight: 900;
 }
@@ -264,4 +265,40 @@ button {
 
 .admin-rightside, .intro-name > h1 {
     font-family: 'Belgrano', serif;
+}
+
+.sidebar ul img {
+    height: 30px;
+    margin-right: 20px;
+}
+
+.dash img {
+    height: 50px;
+    margin-right: 20px;
+    filter: invert(1);
+    
+}
+
+.dash {
+    margin-top: 20px;
+    margin-left: 35px;
+    font-family: 'Belgrano', serif;
+    font-size: 30px;
+    color: white;
+}
+
+.sidebar ul {
+    font-family: 'Belgrano', serif;
+}
+
+.sidebar-links ul li {
+    font-size: 20px;
+    font-weight: 600;
+    filter: invert(1);
+    display: flex;
+}
+
+.dash div {
+    margin-left: 70px;
+    margin-top: -50px;
 }
